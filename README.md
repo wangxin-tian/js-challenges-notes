@@ -1,6 +1,7 @@
 # js-challenges-notes
 
-前端刷体笔记，根据[Sunny-117/js-challenges](https://github.com/Sunny-117/js-challenges/tree/main)中的内容持续学习，做笔记，写下自己的见解
+前端刷体笔记，根据[Sunny-117/js-challenges](https://github.com/Sunny-117/js-challenges/tree/main)中的内容持续学习，做笔记，写下自己的见解。
+每日十题
 
 ## css手写题 -20
 
