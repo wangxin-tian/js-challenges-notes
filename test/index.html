@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .content {
+        width: 100%;
+        height: 600px;
+        transition: all 1s;
+      }
+      #modeCheckBox {
+        display: none;
+      }
+      #modeCheckBox:checked + .content {
+        background-color: black;
+        color: white;
+        transition: all 1s;
+      }
+      #modeBtn {
+        font-size: 2rem;
+        float: right;
+      }
+      #modeBtn::after {
+        content: '🌞';
+      }
+      #modeCheckBox:checked + .content #modeBtn::after {
+        content: '🌜';
+      }
+    </style>
+  </head>
+  <body>
+    <input id="modeCheckBox" type="checkbox" />
+    <div class="content">
+      <header>
+        <label id="modeBtn" for="modeCheckBox"></label>
+      </header>
+    </div>
+  </body>
+</html>
