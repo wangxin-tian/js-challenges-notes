@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .banner {
+      width: 100%;
+      height: auto;
+    }
+
+    .loading {
+      position: relative;
+      width: 100%;
+      text-align: center;
+    }
+
+    .loading .loading-text {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      color: #80008080;
+      font-size: 60px;
+      font-style: italic;
+      /* font-weight: bold; */
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <!-- 
+      可以抽离出来作为组件
+     -->
+    <div id="layout">
+      <div class="loading">
+        <div class="loading-indocator">
+          <img src="./imgs/26074001_bzCh.gif" alt="loading">
+        </div>
+        <div class="loading-text">
+          ^_^加载中…
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
