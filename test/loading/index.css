@@ -1,0 +1,21 @@
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.loading {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.loading .loading-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #bd32bd;
+  font-size: 60px;
+  font-style: italic;
+  /* font-weight: bold; */
+}
