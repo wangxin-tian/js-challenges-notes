@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <template id="my-component-template">
+      <style>
+        .container {
+          background-color: #f1f1f1;
+          padding: 10px;
+        }
+        .text {
+          color: #4caf50;
+        }
+      </style>
+      <div class="container">
+        <div class="text">Hello, World!</div>
+      </div>
+    </template>
+  </head>
+  <body>
+    <div id="my-component"></div>
+  </body>
+  <script>
+    const template = document.querySelector('#my-component-template');
+    const shadowRoot = document.querySelector('#my-component').attachShadow({ mode: 'open' });
+    const instance = template.content.cloneNode(true);
+    shadowRoot.appendChild(instance);
+  </script>
+</html>
