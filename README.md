@@ -3,6 +3,9 @@
 前端刷体笔记，根据[Sunny-117/js-challenges](https://github.com/Sunny-117/js-challenges/tree/main)中的内容持续学习，做笔记，写下自己的见解。
 每日十题
 
+使用资料
+
+
 ## css手写题 -20
 
 ### js手写题 -100
@@ -39,5 +42,21 @@
 
 ### 算法
 
----
+### 面试题
+
+> es6
+
+- [var、let、const之间的区别](doc/es6面试题.md#var、let、const之间的区)
+- [es6扩展](doc/es6面试题.md#扩展)
+- [set、map理解](doc/es6面试题.md#set、map理解)
+- [Promise](doc/es6面试题.md#Promise)
+- [Generator使用场景](doc/es6面试题.md#Generator使用场景)
+- [Proxy使用场景](doc/es6面试题.md#Proxy使用场景)
+- [理解es6模块化](doc/es6面试题.md#理解es6模块化)
+- [理解ES6中Decorator](doc/es6面试题.md#理解ES6中Decorator)
+
+> REST
+
+- [RESTful api](doc/REST.md#restful-api);
+
 ## 持续积累！！！
